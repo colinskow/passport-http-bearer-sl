@@ -1,5 +1,5 @@
 {
-  "name": "passport-http-bearer",
+  "name": "passport-http-bearer-sl",
   "version": "1.0.1",
   "description": "HTTP Bearer authentication strategy for Passport.",
   "keywords": [
@@ -12,14 +12,15 @@
     "http",
     "bearer",
     "token",
-    "oauth"
+    "oauth",
+    "SuperLogin"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-http-bearer.git"
+    "url": "git://github.com/colinskow/passport-http-bearer-sl.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-http-bearer/issues"
+    "url": "http://github.com/colinskow/passport-http-bearer-sl/issues"
   },
   "author": {
     "name": "Jared Hanson",
