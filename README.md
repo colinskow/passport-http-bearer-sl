@@ -21,7 +21,7 @@ integrated into any application or framework that supports
 
 ## Install
 
-    $ npm install passport-http-bearer
+    $ npm install passport-http-bearer-sl
 
 ## Usage
 
