@@ -1,4 +1,4 @@
-# passport-http-bearer
+# passport-http-bearer-sl
 
 [![Build](https://travis-ci.org/jaredhanson/passport-http-bearer.png)](http://travis-ci.org/jaredhanson/passport-http-bearer)
 [![Coverage](https://coveralls.io/repos/jaredhanson/passport-http-bearer/badge.png)](https://coveralls.io/r/jaredhanson/passport-http-bearer)
@@ -6,6 +6,8 @@
 
 
 HTTP Bearer authentication strategy for [Passport](http://passportjs.org/).
+
+This project was forked for [SuperLogin](https://github.com/colinskow/superlogin) to change the query parameter from 'access_token' to 'bearer_token' because access_token is a reserved query parameter with several OAuth providers including Google. This enables SuperLogin to link OAuth accounts to an already authenticated user.
 
 This module lets you authenticate HTTP requests using bearer tokens, as
 specified by [RFC 6750](http://tools.ietf.org/html/rfc6750), in your Node.js
